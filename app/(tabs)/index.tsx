@@ -38,7 +38,7 @@ export default function App() {
                     </View>
 
                     <View>
-                        <ListHeading title="Upcomming"></ListHeading>
+                        <ListHeading title="Upcoming"></ListHeading>
                         <FlatList
                             data={UPCOMING_SUBSCRIPTIONS}
                             renderItem={({item}) => (<UpcomingSubscriptionCard {...item}></UpcomingSubscriptionCard>)}
@@ -50,7 +50,7 @@ export default function App() {
 
                     </View>
 
-                    <ListHeading title="All Subscription"></ListHeading>
+                    <ListHeading title="All Subscriptions"></ListHeading>
                 </>
             )}
             data={HOME_SUBSCRIPTIONS}
